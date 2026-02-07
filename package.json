@@ -12,5 +12,11 @@
   "@x402/next": "latest",
   "@x402/core": "latest",
   "@x402/evm": "latest"
+  },  
+  "devDependencies": {
+  "typescript": "^5.3.3",
+  "@types/react": "^18.2.45",
+  "@types/node": "^20.11.5"
 }
+  
 }
