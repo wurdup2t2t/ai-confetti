@@ -1,0 +1,16 @@
+{
+  "name": "ai-confetti",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@x402/next": "^0.3.0",
+    "@x402/core": "^0.3.0",
+    "@x402/evm": "^0.3.0"
+  }
+}
