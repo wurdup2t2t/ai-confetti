@@ -1,11 +1,9 @@
-import type { NextApiRequest, NextApiResponse } from "next/types";
-
-export default function handler(req: NextApiRequest, res: NextApiResponse) {
+export default function handler(req: any, res: any) {
   if (req.method !== "POST") {
     return res.status(405).json({ error: "POST only" });
   }
 
-  const { from, to, message } = req.body;
+  const { from, to, message } = req.body || {};
 
   if (!from || !to || !message) {
     return res.status(400).json({ error: "Missing fields" });
