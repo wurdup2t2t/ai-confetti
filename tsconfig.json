@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "moduleResolution": "nodenext",
+    "module": "esnext",
     "strict": false,
     "noEmit": true
   }
